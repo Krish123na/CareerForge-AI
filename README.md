@@ -2,7 +2,7 @@
 **Your intelligent career advancement assistant powered by AI.**  
 Optimize your job search, craft perfect resumes, and navigate your career with confidence.
 
-🌐 **Live Website:** [https://careercraftai.vercel.app](https://carrer-craft-ai.vercel.app/)
+🌐 **Live Website:** (https://career-forge-ai-3kor.vercel.app/)
 
 ---
 
@@ -66,6 +66,8 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL="/onboarding"
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL="/onboarding"
 GEMINI_API_KEY="your_gemini_api_key"
+INNGEST_EVENT_KEY="your inngest event key"
+INNGEST_SIGNING_KEY="your inngest signing key"
 ```
 
 Database Sync and start the dev server:
@@ -97,17 +99,6 @@ Follows modern Next.js 13+ standards:
 ```
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions! Please fork the repo and submit a pull request.
-
----
-
-## 📄 License
-
-Licensed under the [MIT License](LICENSE).
-
 
 
 Made with 💗 by Krishna
