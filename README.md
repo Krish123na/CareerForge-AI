@@ -12,10 +12,10 @@ Optimize your job search, craft perfect resumes, and navigate your career with c
   Professionally formatted, industry-tailored resumes with a single click.
 
 - 📝 **Cover Letter Generator**  
-  Personalized cover letters aligned with your job applications.
+  Generate tailored cover letters for specific job descriptions.
 
 - 💡 **Technical Interview Prep**  
-  Practice real-world questions and get intelligent feedback.
+  Practice with custom-generated interview questions and receive instant AI feedback on your responses.
 
 - 📊 **Industry Insights Dashboard**  
   Data-driven career guidance tailored to your field.
@@ -26,12 +26,11 @@ Optimize your job search, craft perfect resumes, and navigate your career with c
 
 | Layer            | Technologies Used                                  |
 |------------------|----------------------------------------------------|
-| **Frontend**     | Next.js 13+ (App Router), React, Tailwind CSS, shadcn/ui |
+| **Frontend**     | Next.js 15+ (App Router), React, Tailwind CSS, shadcn/ui |
 | **Backend**      | Next.js Server Components & API Routes             |
 | **Database**     | PostgreSQL (Neon DB)                               |
-| **AI Integration**| Google Gemini 1.5 Flash                           |
+| **AI Integration**| Google Gemini 3 Flash                           |
 | **Auth**         | Clerk                                              |
-| **State Mgmt**   | React Context API                                  |
 | **Deployment**   | Vercel                                             |
 | **Background Jobs** | Inngest                                        |
 
@@ -51,9 +50,8 @@ Optimize your job search, craft perfect resumes, and navigate your career with c
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/ai-career-coach.git
-cd ai-career-coach
-
+git clone https://github.com/YOUR_USERNAME/CareerForge-AI.git
+cd CareerForge-AI
 npm install
 ```
 
@@ -70,10 +68,11 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL="/onboarding"
 GEMINI_API_KEY="your_gemini_api_key"
 ```
 
-Run the database migrations and start the dev server:
+Database Sync and start the dev server:
 
 ```bash
-npx prisma migrate dev
+npx prisma generate
+npx prisma db push
 npm run dev
 ```
 
@@ -109,18 +108,8 @@ We welcome contributions! Please fork the repo and submit a pull request.
 
 Licensed under the [MIT License](LICENSE).
 
----
 
-## 🙌 Acknowledgements
 
-- [Next.js](https://nextjs.org)  
-- [Tailwind CSS](https://tailwindcss.com)  
-- [shadcn/ui](https://ui.shadcn.com)  
-- [Clerk](https://clerk.dev)  
-- [Google Gemini](https://deepmind.google)  
-- [Neon DB](https://neon.tech)  
-- [Vercel](https://vercel.com)  
+Made with 💗 by Krishna
 
----
-
-Made with ❤️ by Gupta_Nawneet
+B.Tech (IT) Student at BIT Sindri
